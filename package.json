@@ -7,9 +7,13 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "format": "prettier --write .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@builder.io/react": "^8.0.2",
+    "antd": "^5.23.0",
+    "axios": "^1.7.9",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
