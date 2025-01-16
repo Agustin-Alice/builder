@@ -16,7 +16,7 @@ export default [
     plugins: {
       react,
       'react-hooks': reactHooks,
-      prettier, // Agregar Prettier como plugin
+      prettier,
     },
     rules: {
       eqeqeq: 'error',
